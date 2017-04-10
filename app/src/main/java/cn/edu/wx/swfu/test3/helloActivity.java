@@ -13,6 +13,13 @@ import android.os.Bundle;
  *
  * margin 表示控件距离其他控件或屏幕边缘的间距....外边距
  * padding：表示控件内部内容距离控件边缘的距离....内边距
+ *
+ * layout_weight:表示权重的概念，即按照百分比的形式进行划分
+ * 如果控件划分的区域为march_parent时那么权重越大所占比例越小
+ * 如果控件为wrap_contant,权重越大比例越大
+ *
+ * 在一个页面有权重的控件和无权重的控件时
+ * 系统优先考虑无权重的控件
  */
 
 public class helloActivity extends AppCompatActivity {
