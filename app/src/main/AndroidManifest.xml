@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".testActivity" />
         <activity android:name=".lineLayout" />
-        <activity android:name=".Realativellayout"></activity>
+        <activity android:name=".Realativellayout" />
+        <activity android:name=".activity_table" />
+        <activity android:name=".FramelayoutActivity"></activity>
     </application>
 
 </manifest>
