@@ -1,0 +1,6 @@
+Project结构类型：
+app/build/ app模块build编译输出的目录
+app/build.gradle app模块的gradle编译文件
+src：存放的是应用程序使用的JAVA文件
+app/app.iml app模块的配置文件
+
