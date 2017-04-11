@@ -1,0 +1,4 @@
+app/manifests ：androidmanifest.xml配置文件目录
+app/java： 源码目录
+app/res： 资源文件目录
+Gradle scripts :gradle编译相关脚本
