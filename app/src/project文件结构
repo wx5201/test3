@@ -15,6 +15,12 @@ res/value:包含了应用程序所使用到的尺寸，字符串，样式等资�
   如果在xml中使用res中的资源，大部分都是通过@资源文件/资源的名字
   values-w820dp：使用sw属性对屏幕进行区分。使用在多屏幕进行适配过程中
 
-  androidManifest:应用程序级别的配置文件
+  androidManifest:应用程序级别的配置文件。很重要定义了应用程序的主包名，版本号，版本名称，定义了最低的sdk版本以及使用的target
+版本。还包含了应用程序中使用到的一些组建的申明配置
+ *当android 启动一个应用程序组建之前，他必须知道那个组建的存在
+ *必须在androidmanifest.xml中申明项目中所用到的所有activity和Service
+ *这个文件会被打包android的应用程序.APK中
+ *在Activity的声明标签存在一个intentfilter,又叫做Intent的过滤器。用于过滤对应的intent对象来实现呈现到底哪一个界面
+
 
   assets:存放应用程序使用的资源。在这个文件夹中的文件会被原封不动的打包进入apk
