@@ -1,0 +1,20 @@
+src：存放的是应用程序使用到的java文件
+libs：存放三方的jar包
+
+
+res：存放资源存储的目录
+res/drawable：存放的是图片资源。存放不同分辨率的资源，按照分辨率分别是l--m--h--xh--xxh--xxxh
+res/layout:包含应用程序中使用到的一系列布局文件。使用的时候一般会会在代码中通过R.Layout.xxx
+
+menu:包含了菜单中使用到的item定义的内容
+
+res/value:包含了应用程序所使用到的尺寸，字符串，样式等资源
+  string:字符串资源
+  dimens：尺寸资源
+  在xml文件中都是通过@String/xxx进行引用
+  如果在xml中使用res中的资源，大部分都是通过@资源文件/资源的名字
+  values-w820dp：使用sw属性对屏幕进行区分。使用在多屏幕进行适配过程中
+
+  androidManifest:应用程序级别的配置文件
+
+  assets:存放应用程序使用的资源。在这个文件夹中的文件会被原封不动的打包进入apk
